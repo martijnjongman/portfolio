@@ -1,0 +1,330 @@
+$bg-color: #080e26;
+$text-color: white;
+$purple: #532552;
+
+:root {
+  --animate-delay: 0.6s;
+  --animate-duration: 1200ms;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+}
+body {
+  background-color: $bg-color;
+  color: $text-color;
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+}
+
+//Background
+.bg-front {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  font-weight: 800;
+  opacity: 0.05;
+  font-size: clamp(8rem, 24vw, 45rem);
+  display: flex;
+  flex-flow: column;
+  .text-1 {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .text-2 {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+//Front Section
+.front-page {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+.front-text {
+  width: 100%;
+  height: 88%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  h2 {
+    font-size: clamp(1rem, 2vw, 8rem);
+    font-weight: 500;
+    padding: 0 0 0 3em;
+  }
+  h1 {
+    font-size: clamp(2.1rem, 6vw, 10rem);
+    text-decoration: underline;
+    text-decoration-color: $purple;
+    margin: 0.5em 0 0.5em 0;
+    padding: 0 0 0 1em;
+  }
+  p {
+    font-size: clamp(0.8rem, 2vw, 2rem);
+    padding: 0 0 0 6em;
+  }
+}
+//Scroll text + animation
+.scroll {
+  width: 100%;
+  height: 7.5%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  .scrollText {
+    font-size: clamp(0.8rem, 1vw, 2rem);
+    opacity: 0.5;
+  }
+  .vertical {
+    border-left: 4px solid white;
+    height: 2vh;
+    opacity: 0.5;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    animation: line 2s alternate infinite;
+    //Animation line
+    @keyframes line {
+      0% {
+        bottom: 0;
+      }
+
+      50% {
+        bottom: 1em;
+      }
+
+      0% {
+        bottom: 0;
+      }
+    }
+  }
+}
+//Responsive Front Section
+@media (min-width: 600px) {
+  .front-text {
+    padding-left: 2em;
+  }
+  .front-text p {
+    padding-left: 14em;
+  }
+  .front-text h2 {
+    padding-left: 6em;
+  }
+}
+@media (min-width: 2800px) {
+  .front-text {
+    padding-left: 35em;
+  }
+  .front-text p {
+    padding-left: 12em;
+  }
+}
+
+//Learning Path Section
+h3 {
+  text-align: center;
+  padding: 10vh 0em 0em 0em;
+  font-size: clamp(1.5rem, 2vw, 8rem);
+}
+.skills {
+  display: grid;
+  h4 {
+    text-align: center;
+    padding: 10vh 0em 1em 0em;
+    font-size: clamp(1.2rem, 2vw, 4rem);
+  }
+  .vertical2 {
+    border-left: 2px solid white;
+    height: 4vh;
+    opacity: 0.5;
+    left: 50%;
+    position: relative;
+  }
+  .item {
+    position: relative;
+    padding: 2em 0em;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 8vh;
+    span {
+      position: absolute;
+      font-size: clamp(3rem, 4vw, 6rem);
+      font-weight: 700;
+      text-align: center;
+      width: 100%;
+      opacity: 0.05;
+      justify-items: center;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    p {
+      text-align: center;
+      font-weight: 600;
+      font-size: clamp(1rem, 2vw, 1.8rem);
+      display: flex;
+      align-items: center;
+      z-index: 1;
+      transition: transform 0.2s ease-in-out;
+    }
+    p:hover {
+      transform: scale(1.5);
+    }
+  }
+}
+@media (min-width: 1000px) {
+  .skills {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+//My Work section
+.cardshow {
+  padding: 6vh 0 0 0;
+  margin: 0 10vw;
+  .card {
+    img {
+      width: 60vw;
+      display: block;
+      margin: auto;
+    }
+    h1 {
+      text-align: center;
+      padding: 2em 0;
+    }
+    p {
+      text-align: center;
+      font-size: clamp(0.8rem, 2vw, 1.2rem);
+    }
+  }
+}
+.button {
+  color: white;
+  border: 2px solid $purple;
+  background-color: $bg-color;
+  padding: 1em 1em;
+  font-family: "Montserrat";
+  border-radius: 5px;
+  display: block;
+  margin: 3em auto;
+  width: 10em;
+  text-align: center;
+  text-decoration: none;
+}
+//About me
+.me {
+  h3 {
+    padding: 16vh 0 8vh 0;
+  }
+}
+.about {
+  display: grid;
+  padding: 0 10vw;
+  .p1,
+  .p2 {
+    padding: 2vh 0;
+    font-size: clamp(1rem, 1vw, 2.5rem);
+    line-height: 1.75;
+  }
+  img {
+    display: block;
+    margin: auto;
+    width: 20vw;
+    min-width: 200px;
+    padding-top: 10vh;
+  }
+}
+@media (min-width: 1000px) {
+  .about {
+    padding: 0 15vw;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 4;
+    .p1 {
+      grid-column-start: 1;
+    }
+    .p2 {
+      grid-column-start: 1;
+    }
+    img {
+      grid-column-start: 2;
+      grid-row-start: 1;
+      grid-row: span 4 / 1;
+      margin-left: 50%;
+    }
+  }
+}
+
+//End
+.end {
+  padding: 20vh 0vw;
+  h4 {
+    text-align: center;
+    font-size: clamp(1rem, 1vw, 2rem);
+  }
+}
+
+//Footer
+.footer {
+  height: 3vh;
+  background-color: $purple;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: clamp(0.5rem, 1vw, 1rem);
+  color: white;
+}
+
+//Project
+.project {
+  display: grid;
+  padding: 10vh 12vw;
+  width: 100%;
+  justify-items: center;
+  align-items: center;
+  row-gap: 10vh;
+  h1 {
+    font-size: clamp(2.1rem, 6vw, 5rem);
+    margin: 5vh 0;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  h2 {
+    margin: 2vh 0;
+  }
+  .image {
+    width: 75vw;
+  }
+  p {
+    font-size: clamp(1rem, 1vw, 2.5rem);
+    line-height: 1.75;
+  }
+  .button {
+    margin-top: 10vh;
+  }
+}
+@media (min-width: 1000px) {
+  .project {
+    grid-template-columns: repeat(2, 1fr);
+    .image {
+      width: 30vw;
+    }
+    .learn {
+      grid-column: span 2;
+    }
+  }
+}
