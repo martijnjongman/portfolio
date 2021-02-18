@@ -357,7 +357,7 @@ h3 {
 }
 
 .footer {
-  height: 3vh;
+  height: 4vh;
   background-color: #532552;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -409,6 +409,18 @@ h3 {
   margin-top: 10vh;
 }
 
+.project .check {
+  display: -ms-grid;
+  display: grid;
+  grid-column: span 1;
+}
+
+.project .back {
+  display: -ms-grid;
+  display: grid;
+  grid-column: span 1;
+}
+
 @media (min-width: 1000px) {
   .project {
     -ms-grid-columns: (1fr)[2];
@@ -418,6 +430,12 @@ h3 {
     width: 30vw;
   }
   .project .learn {
+    grid-column: span 2;
+  }
+  .project .check {
+    grid-column: span 2;
+  }
+  .project .back {
     grid-column: span 2;
   }
 }

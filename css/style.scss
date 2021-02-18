@@ -279,7 +279,7 @@ h3 {
 
 //Footer
 .footer {
-  height: 3vh;
+  height: 4vh;
   background-color: $purple;
   display: flex;
   justify-content: center;
@@ -316,7 +316,16 @@ h3 {
   .button {
     margin-top: 10vh;
   }
+  .check {
+    display: grid;
+    grid-column: span 1;
+  }
+  .back {
+    display: grid;
+    grid-column: span 1;
+  }
 }
+
 @media (min-width: 1000px) {
   .project {
     grid-template-columns: repeat(2, 1fr);
@@ -324,6 +333,12 @@ h3 {
       width: 30vw;
     }
     .learn {
+      grid-column: span 2;
+    }
+    .check {
+      grid-column: span 2;
+    }
+    .back {
       grid-column: span 2;
     }
   }

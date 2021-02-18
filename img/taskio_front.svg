@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <clipPath id="clip-Web_1920_1">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_1" data-name="Web 1920 – 1" clip-path="url(#clip-Web_1920_1)">
+    <rect width="1920" height="1080" fill="#fff"/>
+    <text id="Welcome" transform="translate(715 576)" fill="#707070" font-size="100" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="0" y="0">Welcome</tspan></text>
+    <text id="Taskio" transform="translate(895 469)" fill="#d9d9d9" font-size="40" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="0" y="0">Taskio</tspan></text>
+    <rect id="Rectangle_5" data-name="Rectangle 5" width="520.246" height="516.932" rx="50" transform="translate(222.173 713.74) rotate(42)" fill="#87d39e"/>
+    <rect id="Rectangle_6" data-name="Rectangle 6" width="898.246" height="478.825" rx="50" transform="translate(-196.387 91.177) rotate(-45)" fill="#b19cf5"/>
+    <rect id="Rectangle_7" data-name="Rectangle 7" width="696.246" height="512.356" rx="50" transform="translate(1614.769 -303.806) rotate(30)" fill="#f59c9c"/>
+    <rect id="Rectangle_13" data-name="Rectangle 13" width="696.246" height="1012.356" rx="50" transform="translate(1597.269 750.715) rotate(30)" fill="#9cc5f5"/>
+  </g>
+</svg>

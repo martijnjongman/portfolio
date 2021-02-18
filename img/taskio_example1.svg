@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <clipPath id="clip-Web_1920_2">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_2" data-name="Web 1920 – 2" clip-path="url(#clip-Web_1920_2)">
+    <rect width="1920" height="1080" fill="#fff"/>
+    <text id="Taskio" transform="translate(144 136)" fill="#707070" font-size="42" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="0" y="0">Taskio</tspan></text>
+    <text id="Let_s_add_some_tasks_" data-name="Let’s add some tasks!" transform="translate(837 755)" fill="#b4b4b4" font-size="21" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="0" y="0">Let’s add some tasks!</tspan></text>
+    <path id="Icon_awesome-tasks" data-name="Icon awesome-tasks" d="M34.453,3.119a2.961,2.961,0,0,0-4.2,0L14.543,18.743l-5.6-5.459a2.961,2.961,0,0,0-4.2,0L.871,17.163a2.961,2.961,0,0,0,0,4.2l11.744,11.7a3.154,3.154,0,0,0,4.346,0L20.808,29.2,38.626,11.386a2.984,2.984,0,0,0,.022-4.2Zm0,39.285a2.961,2.961,0,0,0-4.2,0L14.543,58.128l-5.6-5.454a2.961,2.961,0,0,0-4.2,0L.871,56.547a2.961,2.961,0,0,0,0,4.2L12.586,72.464a3.151,3.151,0,0,0,4.343,0L20.8,68.592,38.621,50.77a2.961,2.961,0,0,0,.022-4.171ZM15.794,85.173a11.846,11.846,0,1,0,0,23.691,11.845,11.845,0,0,0,0-23.691ZM122.4,89.121H51.33a3.948,3.948,0,0,0-3.948,3.948v7.9a3.948,3.948,0,0,0,3.948,3.948H122.4a3.948,3.948,0,0,0,3.948-3.948v-7.9A3.948,3.948,0,0,0,122.4,89.121Zm0-78.969H51.33A3.948,3.948,0,0,0,47.382,14.1V22a3.948,3.948,0,0,0,3.948,3.948H122.4A3.948,3.948,0,0,0,126.351,22V14.1A3.948,3.948,0,0,0,122.4,10.152Zm0,39.485H51.33a3.948,3.948,0,0,0-3.948,3.948v7.9a3.948,3.948,0,0,0,3.948,3.948H122.4a3.948,3.948,0,0,0,3.948-3.948v-7.9A3.948,3.948,0,0,0,122.4,49.637Z" transform="translate(898.102 563.718)" fill="#b4b4b4"/>
+    <g id="Group_21" data-name="Group 21" transform="translate(1474.942 102)">
+      <circle id="Ellipse_5" data-name="Ellipse 5" cx="18" cy="18" r="18" transform="translate(0.058 2)" fill="#b19cf5"/>
+      <circle id="Ellipse_6" data-name="Ellipse 6" cx="18" cy="18" r="18" transform="translate(87.058 2)" fill="#f59c9c"/>
+      <ellipse id="Ellipse_7" data-name="Ellipse 7" cx="17.5" cy="18" rx="17.5" ry="18" transform="translate(176.058 2)" fill="#83cd9a"/>
+      <ellipse id="Ellipse_8" data-name="Ellipse 8" cx="18.5" cy="18" rx="18.5" ry="18" transform="translate(265.058 0)" fill="#8fb4e0"/>
+    </g>
+    <g id="Group_22" data-name="Group 22" transform="translate(144 223)">
+      <rect id="Rectangle_9" data-name="Rectangle 9" width="1633" height="79" rx="10" transform="translate(0 0)" fill="#f4f4f4"/>
+      <text id="Add_task" data-name="Add task" transform="translate(40 47)" fill="#d3d3d3" font-size="26" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="0" y="0">Add task</tspan></text>
+      <path id="Icon_awesome-plus" data-name="Icon awesome-plus" d="M26.08,13.284H17.052V4.256A2.006,2.006,0,0,0,15.046,2.25H13.04a2.006,2.006,0,0,0-2.006,2.006v9.028H2.006A2.006,2.006,0,0,0,0,15.29V17.3A2.006,2.006,0,0,0,2.006,19.3h9.028V28.33a2.006,2.006,0,0,0,2.006,2.006h2.006a2.006,2.006,0,0,0,2.006-2.006V19.3H26.08A2.006,2.006,0,0,0,28.086,17.3V15.29A2.006,2.006,0,0,0,26.08,13.284Z" transform="translate(1582.645 22.746)" fill="#c4c4c4"/>
+    </g>
+  </g>
+</svg>
